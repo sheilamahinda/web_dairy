@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d1cdc7;
+}
+
+header {
+    text-align: center;
+    background-color: #d1cdc7;
+    padding: 20px 0;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #964b00;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 72px;
+    color: #5a3825;
+    margin: 20px 0;
+}
+
+.header-image {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.header-image img {
+    width: 100px;
+}
+
+main {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.difference {
+    text-align: center;
+    padding: 20px;
+    background-color: #8b4513;
+    color: white;
+    border-radius: 10px;
+}
+
+.difference img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    background-image: url('images/BLOB.svg');
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.product {
+    width: 45%;
+    background-color: #d1cdc7;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 50px;
+    margin-bottom: 20px;
+}
