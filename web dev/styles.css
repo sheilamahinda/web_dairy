@@ -11,7 +11,43 @@ header {
     padding: 20px 0;
     position: relative;
 }
+.button1 {
+    background-color: #964b00;
+    border-radius: 30px;
+    height: 50px;
+}
+.shape {
+    position: absolute; /* Position absolute to position the shapes relative to the header */
+    border-radius: 50%; /* Make the shapes circular */
+    background-color: #704722; /* Blue color for the shapes */
+    width: 50px; /* Width of the shapes */
+    height: 50px; /* Height of the shapes */
+    z-index: 1;
+}
 
+/* Positioning the shapes */
+.shape-1 {
+    top: 20px; /* Position from the top */
+    left: 20px; /* Position from the left */
+    /* z-index: 1; */
+}
+
+.shape-2 {
+    bottom: 20px; /* Position from the bottom */
+    right: 20px; /* Position from the right */
+}
+.shape-3 {
+    bottom: 80px; /* Position from the bottom */
+    right: 250px; /* Position from the right */
+}
+.shape-4 {
+    bottom: 20px; /* Position from the bottom */
+    left: 60px; /* Position from the right */
+}
+.shape-5 {
+    bottom: 300px; /* Position from the bottom */
+    right: 90px; /* Position from the right */
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -33,12 +69,19 @@ nav ul li a {
     font-weight: bold;
 }
 
+ul {
+    list-style-type: none; /* Remove default list-style */
+    padding: 0; /* Remove default padding */
+}
+
+
 h1 {
     font-size: 100px;
     color: #5a3825;
     margin: 20px 0;
     letter-spacing: 25px;
     text-shadow: 2px 2px 5px brown;
+    
 }
 
 
@@ -47,6 +90,9 @@ h1 {
     position: absolute;
     right: 400px;
     top: 50px;
+    max-width: 100%; /* Make sure the image doesn't overflow */
+            display: block; /* Make the image a block element */
+            margin: 0 auto; /* Center the image horizontally */
 }
 
 .header-image img {
@@ -73,13 +119,14 @@ main {
     background-color: #8b4513;
     color: white;
     border-radius: 10px;
+    height: 250px;
 }
 
-.difference img {
+/* .difference img {
     width: 100px;
     margin-top: 20px;
-    /* background-position: right top; */
-}
+  
+} */
 
 .products {
     display: flex;
